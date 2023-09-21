@@ -10,12 +10,13 @@ import Key from './pages/Key';
 import Reward from './pages/Reward';
 import Terms from './pages/Terms';
 import Time from './pages/Time';
+import Register from './pages/Register';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Hero />
+       <Header/>
+      {/*<Hero />
       <Idea/>
       <Rules/>
       <Key/>
@@ -24,7 +25,8 @@ function App() {
       <Reward/>
       <Parts/>
       <Terms/>
-      <Footer/>
+      <Footer/> */}
+      <Register/>
     </div>
   );
 }
