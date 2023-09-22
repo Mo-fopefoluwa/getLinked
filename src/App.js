@@ -11,6 +11,7 @@ import Reward from './pages/Reward';
 import Terms from './pages/Terms';
 import Time from './pages/Time';
 import Register from './pages/Register';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -25,8 +26,10 @@ function App() {
       <Reward/>
       <Parts/>
       <Terms/>
-      <Footer/> */}
-      <Register/>
+      */}
+      {/* <Register/> */}
+      <Contact/>
+      <Footer/> 
     </div>
   );
 }
