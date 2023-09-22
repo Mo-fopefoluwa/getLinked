@@ -48,7 +48,7 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col md:flex-row gap-[5rem]">
-      <div>
+      <div className="w-[80%] md:w-[40%]">
         <h4>Get in touch</h4>
         <p>
           Contact <br /> information
@@ -70,7 +70,7 @@ const Contact = () => {
           </ul>
         </span>
       </div>
-      <div>
+      <div className="bg-[#3a1c8d31] w-80% md:w-[45%]">
         <p>Questions or need assistance?</p>
         <p>Let us know about it!</p>
         <form action="" onSubmit={submitHandler}>
