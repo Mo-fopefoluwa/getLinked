@@ -37,6 +37,49 @@ const Register = () => {
     } else console.log("submitted successfully");
   };
 
+  const isValidate = () => {
+    let isProceed = true;
+    if (name === "") {
+      setError(<p>Please fill this box </p>);
+    } else if (phone === "") {
+      setErrorp(<p>Please fill this box </p>);
+    } else if (email === "") {
+      setErrore(<p>Please fill this box </p>);
+    } else if (topic === "") {
+      setErrort(<p>Please fill this box </p>);
+    } else if (category === "") {
+      setErrorc(<p>Please fill this box </p>);
+    } else if (group === "") {
+      setErrorg(<p>Please fill this box </p>);
+    } else if (!checked === true) {
+      setErrorC(<p>Please fill this box</p>);
+    } else isProceed = true;
+
+    return isProceed;
+  };
+
+  // const handleSubmit = (e) => {
+  //   if (isValidate()) {
+  //     e.preventDefault();
+
+  //     let regObj = { id, name, email, phone, password, coPassword };
+  //     //console.log(regObj);
+
+  //     fetch("http://localhost:8000/user/", {
+  //       method: "POST",
+  //       headers: { "content-type": "application/json" },
+  //       body: JSON.stringify(regObj),
+  //     })
+  //       .then((res) => {
+  //         window.alert("Registered successfully");
+  //         navigate("/signin");
+  //       })
+  //       .catch((err) => {
+  //         window.alert("Failed :" + err.message);
+  //       });
+  //   }
+  // };
+
   return (
     <div>
       <div className="flex flex-col md:flex-row justify-center items-center gap-[4rem]">
