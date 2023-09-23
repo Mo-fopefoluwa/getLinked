@@ -36,7 +36,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="relative flex flex-row justify-between  items-center px-20 py-10">
+      <div className="relative flex flex-row justify-between  items-center px-[2rem] md:px-20 py-10">
         <img className="w-[6rem] md:w-[9rem]" src="getlinked.png" alt="" />
         <ul className=" hidden md:flex flex-row gap-10 justify-center items-center text-white">
           <a href="/">
