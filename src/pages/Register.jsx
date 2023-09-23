@@ -112,7 +112,7 @@ const Register = ({ result = [] }) => {
           alt=""
         />
         <img
-          className="stars absolute bottom-[21rem] md:bottom-[16rem] md:left-[37rem] left-[27rem]"
+          className="stars absolute bottom-[21rem] md:bottom-[16rem] md:left-[37rem] left-[24rem]"
           src="stardp.png"
           alt=""
         />
