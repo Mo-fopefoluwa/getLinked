@@ -24,7 +24,7 @@ const Header = () => {
             {" "}
             <Link
               to={"register"}
-              className="ml-[-2.2rem] px-[2rem] py-[.5rem] md:py-[1rem] rounded bg-gradient-to-r from-[#d434fe] to-[#903aff]"
+              className="ml-[-3.2rem] px-[2rem] py-[.8rem] md:py-[1rem] rounded bg-gradient-to-r from-[#d434fe] to-[#903aff]"
             >
               Register
             </Link>{" "}
