@@ -101,7 +101,7 @@ const Register = ({ result = [] }) => {
           alt=""
         />
         <img
-          className=" stars absolute top-[20rem] md:top-[10.5rem] left-[25rem] md:left-[8rem]"
+          className=" stars absolute top-[20rem] md:top-[10.5rem] left-[20rem] md:left-[8rem]"
           src="starlightpurp.png
         "
           alt=""
@@ -198,7 +198,7 @@ const Register = ({ result = [] }) => {
                 {project_topic === "" ? errort : ""}
               </span>
             </div>
-            <div className="flex flex-row gap-4 md:gap-[2rem] pb-4 md:gap-[2rem] items-center justify-center">
+            <div className="flex flex-row gap-4 pb-4 md:gap-[2rem] items-center justify-center">
               <span className="flex flex-col w-[55%] md:w-[45%]">
                 <label className="text-left pb-2" htmlFor="category">
                   Category
@@ -213,7 +213,11 @@ const Register = ({ result = [] }) => {
                 >
                   {results.map((result) => {
                     return (
-                      <option key={result.id} className="bg-[#150e28]" value="">
+                      <option
+                        key={result.id}
+                        className="bg-[#150e28]"
+                        value={result.name}
+                      >
                         {result.name}
                       </option>
                     );
