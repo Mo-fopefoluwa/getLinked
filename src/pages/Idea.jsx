@@ -16,7 +16,7 @@ const Idea = () => {
         alt=""
       />
       <img
-        className="absolute bottom-[27rem] md:bottom-[5rem] left-[13rem] md:left-[38rem]"
+        className="absolute bottom-[22rem] md:bottom-[5rem] left-[13rem] md:left-[38rem]"
         src="arrow.png"
         alt=""
       />
