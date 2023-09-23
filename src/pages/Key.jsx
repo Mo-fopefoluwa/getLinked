@@ -10,17 +10,48 @@ const Key = () => {
         whileInView="show"
         variants={staggerChildren}
         viewport={{ once: false, amount: 0.25 }}
-        className="relative pt-[10rem] flex flex-col md:flex-row px-10 justify-center items-center"
+        className="relative pt-[10rem] flex flex-col md:flex-row px-10 justify-center items-center border-t-[.5px] border-white border-opacity-75"
       >
+        <img
+          className="absolute opacity-50 w-[60%] md:w-[50%] right-0 bottom-0 md:top-[20rem] "
+          src="purplekey.png"
+          alt=""
+        />
+        <img
+          className="absolute w-[60%] md:w-[50%] opacity-50 top-[18%] md:top-[20rem] left-8 md:left-0"
+          src="Purple1.png"
+          alt=""
+        />
+        <img
+          className="stars absolute top-[1rem] md:top-[8rem] left-[12rem]"
+          src="stardp.png"
+          alt=""
+        />
+        <img
+          className="hidden md:block absolute top-[11rem] left-[8rem]"
+          src="Ellipse.png"
+          alt=""
+        />
+        <img
+          className="stars absolute bottom-[1rem] left-[25rem] md:left-[38rem] "
+          src="starwhitesmall.png"
+          alt=""
+        />
+        <img
+          className="stars absolute top-[18rem] md:top-[28rem] left-[16rem] md:left-[25rem]"
+          src="stargraysmall.png"
+          alt=""
+        />
+
         <motion.img
           variants={zoomIn(0.2, 1)}
-          className="w-[80%] md:w-[50%]"
+          className="w-[80%] md:w-[50%] z-10"
           src="key.png"
           alt=""
         />
         <div className="text-white text-center md:text-left">
           <motion.h3
-            variants={fadeIn("right", "tween", 0.4, 1.5)}
+            variants={fadeIn("up", "tween", 0.4, 1.5)}
             className="text-[1.5rem] md:text-[1.8rem] font-bold"
           >
             Judging Criteria <br />{" "}

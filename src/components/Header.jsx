@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [open, setOpen] = useState("");
@@ -6,24 +7,27 @@ const Header = () => {
   const Nav = () => {
     return (
       <div>
-        <ul className="absolute z-20 bg-[#150e28] left-0 top-[8rem] text-center w-[100%] flex flex-col gap-10 justify-center items-center text-white">
-          <a href="/">
+        <ul className="absolute z-20 bg-[#150e28] left-0 top-[8rem] text-left w-[100%] px-[4rem] justify-center flex flex-col gap-14  text-white pb-[6rem]">
+          <Link to={"/"}>
             <li>Timeline</li>
-          </a>
+          </Link>
           <a href="/">
             <li>Overview</li>
           </a>
           <a href="/">
             <li>FAQs</li>
           </a>
-          <a href="/">
+          <Link to={"contact"}>
             <li>Contact</li>
-          </a>
+          </Link>
           <li className="ml-14">
             {" "}
-            <button className="px-[2rem] py-[1rem] rounded bg-gradient-to-r from-[#d434fe] to-[#903aff]">
+            <Link
+              to={"register"}
+              className="ml-[-2.8rem] px-[2rem] py-[.5rem] md:py-[1rem] rounded bg-gradient-to-r from-[#d434fe] to-[#903aff]"
+            >
               Register
-            </button>{" "}
+            </Link>{" "}
           </li>
         </ul>{" "}
       </div>
@@ -32,8 +36,8 @@ const Header = () => {
 
   return (
     <div>
-      <div className="relative flex flex-row md:gap-[28rem] items-center px-20 py-10 border-b-[1px]">
-        <img className="w-[5rem] md:w-[9rem]" src="getlinked.png" alt="" />
+      <div className="relative flex flex-row justify-between  items-center px-20 py-10">
+        <img className="w-[6rem] md:w-[9rem]" src="getlinked.png" alt="" />
         <ul className=" hidden md:flex flex-row gap-10 justify-center items-center text-white">
           <a href="/">
             <li>Timeline</li>
@@ -44,23 +48,23 @@ const Header = () => {
           <a href="/">
             <li>FAQs</li>
           </a>
-          <a href="/">
+          <Link to={"contact"}>
             <li>Contact</li>
-          </a>
+          </Link>
           <li className="ml-14">
             {" "}
-            <button className="px-[3rem] py-[.8rem] rounded bg-gradient-to-r from-[#fe34b9] to-[#903aff]">
+            <Link
+              to={"register"}
+              className="px-[3rem] py-[.8rem] rounded bg-gradient-to-r from-[#fe34b9] to-[#903aff]"
+            >
               Register
-            </button>{" "}
+            </Link>{" "}
           </li>
         </ul>
         <div className="block  md:hidden">
-          <button
-            className="text-white w-[20rem] pl-[14rem]"
-            onClick={() => setOpen(!open)}
-          >
+          <button className="text-white  " onClick={() => setOpen(!open)}>
             {open ? (
-              <img src="menu.png" alt="" />
+              <img src="close.png" alt="" />
             ) : (
               <img src="menu.png" alt="" />
             )}

@@ -9,8 +9,18 @@ const Rules = () => {
       whileInView="show"
       variants={staggerChildren}
       viewport={{ once: false, amount: 0.25 }}
-      className="pt-14 px-10 relative"
+      className="pt-14 px-10 relative border-t-[.5px] border-white"
     >
+      <img
+        className="stars absolute md:bottom-[7rem] top-[12rem] left-[6rem]  md:left-[38rem]"
+        src="starwhitesmall.png"
+        alt=""
+      />
+      <img
+        className="stars absolute top-[29rem] md:top-[8rem] left-[25rem] md:left-[24rem]"
+        src="stargraysmall.png"
+        alt=""
+      />
       <img
         className="absolute w-[80%] md:w-[50%] top-[-6rem] md:top-[-2rem] left-[-2rem] md:left-14 opacity-60"
         src="Purple1.png"
@@ -25,12 +35,12 @@ const Rules = () => {
       <div className="flex flex-col-reverse md:flex-row justify-center items-center">
         <div className="text-white text-center md:text-left w-[80%] md:w-[40%]">
           <motion.h3
-            variants={fadeIn("left", "tween", 0.4, 1.5)}
+            variants={fadeIn("up", "tween", 0.4, 1.5)}
             className="text-[1.8rem] md:text-[2.2rem] font-bold "
           >
             Rules and <br /> <span className="text-purple-500">Guidelines</span>
           </motion.h3>
-          <p className="pt-4 text-[1.2rem] md:text-[1.5rem]">
+          <p className="pt-4 text-[1rem] md:text-[1.2rem]">
             Our tech hackathon is a melting pot of visionaries, and its purpose
             is as clear as day: to shape the future. Whether you're a coding
             genius, a design maverick, or a concept wizard, you'll have the

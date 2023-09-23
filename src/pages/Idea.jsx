@@ -4,13 +4,28 @@ import { fadeIn, staggerChildren, zoomIn } from "../utils/motion";
 
 const Idea = () => {
   return (
-    <div className="w-[100%]">
+    <div className="relative w-[100%]">
+      <img
+        className="stars absolute md:top-[16.5rem] top-[12rem] md:left-[6rem] left-[3rem]"
+        src="starlightpurp.png"
+        alt=""
+      />
+      <img
+        className="stars absolute top-[35rem] md:top-[15.5rem] right-[3rem] md:right-[12rem]"
+        src="startdpl.png"
+        alt=""
+      />
+      <img
+        className="absolute bottom-[30rem] md:bottom-[5rem] left-[13rem] md:left-[38rem]"
+        src="arrow.png"
+        alt=""
+      />
       <motion.div
         initial="hidden"
         whileInView="show"
         variants={staggerChildren}
         viewport={{ once: false, amount: 0.25 }}
-        className="flex flex-col md:flex-row justify-center items-center gap-12 px-4  py-20"
+        className="flex border-t-[.5px] border-white border-opacity-50 flex-col md:flex-row justify-center items-center gap-12 px-4  py-20"
       >
         <motion.img
           variants={zoomIn(0.2, 1)}
@@ -20,7 +35,7 @@ const Idea = () => {
         />
         <div className="text-white text-center md:text-left w-[80%] md:w-[40%] pt-14">
           <motion.h3
-            variants={fadeIn("right", "tween", 0.4, 1.5)}
+            variants={fadeIn("down", "tween", 0.4, 1.5)}
             className="text-[1.5rem] md:text-[2rem] font-bold"
           >
             Introduction to getlinked <br />

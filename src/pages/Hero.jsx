@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, staggerChildren, zoomIn } from "../utils/motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -10,22 +11,34 @@ const Hero = () => {
         whileInView="show"
         variants={staggerChildren}
         viewport={{ once: false, amount: 0.25 }}
-        className="relative  flex flex-col gap-16 pt-[6rem] border-b-[0.5px] border-[#fff]"
+        className="relative  flex flex-col gap-16 pt-[6rem]  border-t-[0.5px] border-[#fff]"
       >
+        <img
+          className="stars absolute top-[10rem] left-[9rem]"
+          src="starwhitesmall.png"
+          alt=""
+        />
+        <img
+          className="stars absolute left-[23rem] md:left-[48rem] top-[10rem] md:top-[13rem]"
+          src="stargraysmall.png"
+          alt=""
+        />
+        <img
+          className="stars absolute md:bottom-[11rem] bottom-[35rem] left-[23rem] md:left-[30rem]"
+          src="stargraysmall.png"
+          alt=""
+        />
         <img
           className="absolute opacity-50 top-0 md:top-[-5rem] md:w-[45%] left-[-4rem] md:left-[7rem]"
           src="Purple1.png"
           alt=""
         />
         <div className="flex relative justify-end pr-[4rem]">
-          <motion.p
-            variants={fadeIn("left", "tween", 0.2, 1.5)}
-            className="text-white font-[700] italic text-[1.4rem] md:text-[36px]"
-          >
+          <p className="text-white font-[700] italic text-[1.2rem] md:text-[36px]">
             Igniting a Revolution in HR Innovation
-          </motion.p>
+          </p>
           <motion.img
-            variants={zoomIn(0.2, 1)}
+            variants={fadeIn("up", "tween", 0.2, 1.5)}
             className="absolute w-[9rem] md:w-[15rem] bottom-[-18px]"
             src="Vector4.png"
             alt=""
@@ -40,8 +53,8 @@ const Hero = () => {
                 src="Creative.png"
                 alt=""
               />
-              <h1 className="flex flex-col text-[2.5rem] md:text-[4rem] font-bold md:items-left leading-[3rem] md:leading-[4.5rem]">
-                getlinked Tech
+              <h1 className="flex flex-col text-[2.5rem] md:text-[4rem] font-bold md:items-left leading-[3rem]  md:leading-[4.5rem]">
+                <span className="ml-[-2.5rem] md:ml-0">getlinked Tech</span>
                 <span className="flex flex-row gap-[.1rem]">
                   Hackathon <span className="text-[#d434f8]"> 1.0</span>{" "}
                   <span className="flex flex-row md:justify-center items-end md:items-center">
@@ -64,9 +77,12 @@ const Hero = () => {
               Participate in getlinked tech Hackathon 2023 stand a chance to win
               a Big prize
             </p>
-            <button className="bg-gradient-to-r from-[#fe34b9] to-[#903aff] mt-12 w-[172px] rounded h-[53px] py-2">
+            <Link
+              to={"register"}
+              className="bg-gradient-to-r from-[#fe34b9] to-[#903aff] mt-12 w-[172px] rounded h-[53px] py-2 text-center"
+            >
               Register
-            </button>
+            </Link>
 
             <img
               className="w-[60%] md:w-[50%] pt-[5rem]"
@@ -76,7 +92,7 @@ const Hero = () => {
           </div>
           <motion.div
             variants={zoomIn(0.4, 1)}
-            className="w-[120%] md:w-[45%] relative"
+            className="w-[100%] md:w-[45%] relative"
           >
             <img
               className="absolute w-[80%] opacity-75 left-[3rem] z-10 "
