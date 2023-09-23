@@ -34,7 +34,7 @@ const Hero = () => {
           alt=""
         />
         <div className="flex relative justify-end pr-[4rem]">
-          <p className="text-white font-[700] italic text-[1.2rem] md:text-[36px]">
+          <p className="text-white font-[700] italic text-[1rem] md:text-[36px]">
             Igniting a Revolution in HR Innovation
           </p>
           <motion.img
@@ -53,7 +53,7 @@ const Hero = () => {
                 src="Creative.png"
                 alt=""
               />
-              <h1 className="flex flex-col text-[2.5rem] md:text-[4rem] font-bold md:items-left leading-[3rem]  md:leading-[4.5rem]">
+              <h1 className="flex flex-col text-[2rem] md:text-[4rem] font-bold md:items-left leading-[3rem]  md:leading-[4.5rem]">
                 <span className="ml-[-2.5rem] md:ml-0">getlinked Tech</span>
                 <span className="flex flex-row gap-[.1rem]">
                   Hackathon <span className="text-[#d434f8]"> 1.0</span>{" "}
@@ -73,7 +73,7 @@ const Hero = () => {
               </h1>
             </div>
 
-            <p className="md:pr-[7rem]  pt-[1rem] font-[400] text-[20px]">
+            <p className="md:pr-[7rem]  pt-[1rem] font-[400] text-[15px] md:text-[20px]">
               Participate in getlinked tech Hackathon 2023 stand a chance to win
               a Big prize
             </p>

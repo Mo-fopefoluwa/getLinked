@@ -63,7 +63,7 @@ const Footer = () => {
             </ul>
             <div className="flex flex-row gap-4 pt-[2rem]">
               <p className="text-[#D434FE]">Follow us</p>
-              <ul className="flex flex-row gap-4 ">
+              <ul className="flex flex-row gap-4 text-[1.2rem] ">
                 <a href="/">
                   <li>
                     <i class="bx bxl-instagram"></i>

@@ -110,17 +110,17 @@ const Faq = () => {
           alt=""
         />
         <img
-          className="absolute bottom-[26rem] md:top-[3.4rem] right-[12rem] md:right-[21rem] w-[5%] md:w-[3%]"
+          className="absolute bottom-[23rem] md:top-[3.4rem] right-[12rem] md:right-[21rem] w-[5%] md:w-[3%]"
           src="_.png"
           alt=""
         />
         <img
-          className="absolute w-[8%] md:w-[4%] bottom-[28rem] md:top-[1rem] right-[17rem] md:right-[29rem]"
+          className="absolute w-[8%] md:w-[4%] bottom-[25rem] md:top-[1rem] right-[17rem] md:right-[29rem]"
           src="_.png"
           alt=""
         />
         <img
-          className="absolute bottom-[26rem] md:top-[3.4rem] right-[22rem] md:right-[38rem] w-[5%] md:w-[3%]"
+          className="absolute bottom-[23rem] md:top-[3.4rem] right-[22rem] md:right-[38rem] w-[5%] md:w-[3%]"
           src="_.png"
           alt=""
         />

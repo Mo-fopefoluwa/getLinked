@@ -98,14 +98,17 @@ const Contact = () => {
           <p className="pt-6 font-semibold text-[#d434f8] text-[1.1rem]">
             Share on
           </p>
-          <ul className="flex flex-row gap-8">
+          <ul className="flex flex-row gap-8 text-[1.2rem">
             <a href="/">
               <li>
                 <i class="bx bxl-instagram"></i>
               </li>
             </a>
             <a href="/">
-              <li> <img src="x.png" alt="" /> </li>
+              <li>
+                {" "}
+                <img src="x.png" alt="" />{" "}
+              </li>
             </a>
             <a href="/">
               <li>
