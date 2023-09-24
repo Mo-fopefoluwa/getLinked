@@ -62,7 +62,7 @@ const Register = ({ result = [] }) => {
         .then((res) => {
           // console.log(regObj);
           document.getElementById("default-modal").style.display = "block";
-          document.body.classList.add("modal-active");
+          document.getElementById("registers").classList.add("modal-active");
         })
 
         .catch((err) => {
@@ -88,7 +88,10 @@ const Register = ({ result = [] }) => {
 
   return (
     <div>
-      <div className="relative flex flex-col md:flex-row justify-center items-center gap-[2rem] md:gap-[4rem] py-[6rem]">
+      <div
+        id="registers"
+        className="relative flex flex-col md:flex-row justify-center items-center gap-[2rem] md:gap-[4rem] py-[6rem]"
+      >
         <img
           className="absolute opacity-40 bottom-0 right-0 w-[40%]"
           src="purplecleft.png"
