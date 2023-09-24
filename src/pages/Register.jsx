@@ -62,11 +62,11 @@ const Register = ({ result = [] }) => {
         .then((res) => {
           console.log(res);
           document.getElementById("default-modal").style.display = "block";
-          // document.getElementById("registers").classList.add("modal-active");
+          // document.body.classList.add("modal-active");
         })
 
         .catch((err) => {
-          window.alert("Error, please try again");
+          window.alert("Error:" + err.message);
         });
     }
   };
