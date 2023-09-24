@@ -46,7 +46,7 @@ const Parts = () => {
         </h5>
         <p
           variants={fadeIn("left", "tween", 0.4, 1.5)}
-          className="px-[4rem] md:px-[28rem] pt-[1rem] mpb-[4rem]"
+          className="px-[4rem] md:px-[10rem] pt-[1rem] mpb-[4rem]"
         >
           Getlinked Hackathon 1.0 is honored to have the following major
           companies as its partners and sponsors
