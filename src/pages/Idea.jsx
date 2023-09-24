@@ -11,12 +11,12 @@ const Idea = () => {
         alt=""
       />
       <img
-        className="stars absolute top-[35rem] md:top-[15.5rem] right-[3rem] md:right-[12rem]"
-        src="startdpl.png"
+        className="stars absolute top-[30rem] sm:top-[35rem] md:top-[15.5rem] right-[2.6rem] sm:right-[3rem] md:right-[12rem]"
+        src="stardp.png"
         alt=""
       />
       <img
-        className="absolute bottom-[37rem]  md:bottom-[5rem] left-[11rem] md:left-[38rem]"
+        className="absolute bottom-[28rem] sm:bottom-[37rem]  md:bottom-[5rem] left-[9rem] sm:left-[11rem] md:left-[38rem]"
         src="arrow.png"
         alt=""
       />
@@ -36,12 +36,12 @@ const Idea = () => {
         <div className="text-white text-center md:text-left w-[80%] md:w-[40%] pt-14">
           <motion.h3
             variants={fadeIn("down", "tween", 0.4, 1.5)}
-            className="text-[1.5rem] md:text-[2rem] font-bold"
+            className="text-[1.2rem] sm:text-[1.5rem] md:text-[2rem] font-bold"
           >
             Introduction to getlinked <br />
             <span className="text-[#d434f8]">tech Hackathon 1.0</span>
           </motion.h3>
-          <p className="pt-4 text-[1.15rem] md:text-[1.15rem]">
+          <p className="pt-4 text-[15px] sm:text-[1.15rem] md:text-[1.15rem]">
             Our tech hackathon is a melting pot of visionaries, and its purpose
             is as clear as day: to shape the future. Whether you're a coding
             genius, a design maverick, or a concept wizard, you'll have the

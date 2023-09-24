@@ -23,7 +23,7 @@ const Key = () => {
           alt=""
         />
         <img
-          className="stars absolute top-[1rem] md:top-[8rem] left-[12rem]"
+          className="stars absolute top-[4rem] sm:top-[3rem] md:top-[8rem] left-[12rem]"
           src="stardp.png"
           alt=""
         />
@@ -33,12 +33,12 @@ const Key = () => {
           alt=""
         />
         <img
-          className="stars absolute bottom-[1rem] left-[25rem] md:left-[38rem] "
+          className="stars absolute bottom-[2rem] sm:bottom-[1rem] left-[20rem] sm:left-[25rem] md:left-[38rem] "
           src="starwhitesmall.png"
           alt=""
         />
         <img
-          className="stars absolute top-[18rem] md:top-[28rem] left-[16rem] md:left-[25rem]"
+          className="stars absolute top-[16rem] sm:top-[18rem] md:top-[28rem] left-[12rem] sm:left-[16rem] md:left-[25rem]"
           src="stargraysmall.png"
           alt=""
         />

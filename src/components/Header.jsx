@@ -7,14 +7,14 @@ const Header = () => {
   const Nav = () => {
     return (
       <div>
-        <ul className="absolute z-20 bg-[#150e28] left-0 top-[8rem] text-left w-[100%] px-[4rem] justify-center flex flex-col gap-14  text-white pb-[6rem]">
-          <Link to={"/"}>
+        <ul className="absolute z-70 bg-[#150e28] left-0 top-[8rem] text-left w-[100%] px-[4rem] justify-center flex flex-col gap-14  text-white pb-[6rem]">
+          <a href="#timeline">
             <li>Timeline</li>
-          </Link>
+          </a>
           <a href="/">
             <li>Overview</li>
           </a>
-          <a href="/">
+          <a href="#faqs">
             <li>FAQs</li>
           </a>
           <Link to={"contact"}>
@@ -39,13 +39,13 @@ const Header = () => {
       <div className="relative flex flex-row justify-between  items-center px-[2rem] md:px-20 py-10">
         <img className="w-[6rem] md:w-[9rem]" src="getlinked.png" alt="" />
         <ul className=" hidden md:flex flex-row gap-10 justify-center items-center text-white">
-          <a href="/">
+          <a href="#timeline">
             <li>Timeline</li>
           </a>
           <a href="/">
             <li>Overview</li>
           </a>
-          <a href="/">
+          <a href="#faqs">
             <li>FAQs</li>
           </a>
           <Link to={"contact"}>

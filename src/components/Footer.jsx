@@ -48,15 +48,16 @@ const Footer = () => {
               Useful Links
             </p>
             <ul className="flex flex-col gap-[.6rem]">
-              <Link to={"/"}>
+              <a href="/">
                 <li>Overview</li>
-              </Link>
-              <Link to={"timeline"}>
+              </a>
+              <a href="#timeline">
                 <li>Timeline</li>
-              </Link>
-              <Link to={"FAQs"}>
+              </a>
+
+              <a href="#faqs">
                 <li>FAQs</li>
-              </Link>
+              </a>
               <Link to={"register"}>
                 <li>Register</li>
               </Link>

@@ -6,6 +6,7 @@ const Time = () => {
   return (
     <div>
       <motion.div
+        id="timeline"
         initial="hidden"
         whileInView="show"
         variants={staggerChildren}
@@ -35,9 +36,9 @@ const Time = () => {
         </p>
         <div className="flex flex-col gap-[1.4rem] relative pt-[10rem]">
           <div>
-            <div className="flex gap-[1rem] leading-[30px] md:gap-[10rem] leading-[40px] justify-center items-center flex-col md:flex-row pl-8">
+            <div className="flex text-[.8rem] md:text-[1rem] gap-[1rem] leading-[30px] md:gap-[10rem] leading-[40px] justify-center items-center flex-col md:flex-row pl-8">
               <div className="md:[w-35%] w-[80%] text-left md:text-right">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   Hackathon Announcement
                 </h1>
                 <p>
@@ -46,19 +47,19 @@ const Time = () => {
                 </p>
               </div>
               <div className="md:[w-35%] w-[80%] text-left">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   November 18, 2023
                 </h1>
               </div>
             </div>
             <div className="flex gap-[1rem]  leading-[30px] md:gap-[10rem] leading-[40px] justify-center items-center flex-col-reverse md:flex-row pl-8">
               <div className="md:[w-35%] w-[80%] text-left md:text-right">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   November 18, 2023
                 </h1>
               </div>
               <div className="md:[w-35%] w-[80%] text-left">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   Teams Registration begins
                 </h1>
                 <p>
@@ -69,25 +70,25 @@ const Time = () => {
             </div>
             <div className="flex gap-[1rem] leading-[30px] md:gap-[10rem] leading-[40px] justify-center items-center flex-col  md:flex-row pl-8">
               <div className="md:[w-35%] w-[80%] text-left md:text-right">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   Teams Registration ends
                 </h1>
                 <p>Interested Participants are no longer Allowed to register</p>
               </div>
               <div className="md:[w-35%] w-[80%] text-left">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   November 18, 2023
                 </h1>
               </div>
             </div>
             <div className="flex gap-[1rem] leading-[30px] md:gap-[10rem] leading-[40px] justify-center items-center flex-col-reverse md:flex-row pl-8">
               <div className="md:[w-35%] w-[80%] text-left md:text-right">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   November 18, 2023
                 </h1>
               </div>
               <div className="md:[w-35%] w-[80%] text-left">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   Announcement of the accepted teams and ideas
                 </h1>
                 <p>
@@ -98,7 +99,7 @@ const Time = () => {
             </div>
             <div className="flex gap-[1rem] leading-[30px] md:gap-[10rem] leading-[40px] justify-center items-center flex-col md:flex-row pl-8">
               <div className="md:[w-35%] w-[80%] text-left md:text-right">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   Getlinked Hackathon 1.0 Offically Begins
                 </h1>
                 <p>
@@ -107,19 +108,19 @@ const Time = () => {
                 </p>
               </div>
               <div className="md:[w-35%] w-[80%] text-left">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   November 18, 2023
                 </h1>
               </div>
             </div>
             <div className="flex gap-[1rem] leading-[30px] md:gap-[10rem] leading-[40px] justify-center items-center flex-col-reverse md:flex-row pl-8">
               <div className="md:[w-35%] w-[80%] text-left md:text-right">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   November 18, 2023
                 </h1>
               </div>
               <div className="md:[w-35%] w-[80%] text-left">
-                <h1 className="text-[#d434f8] font-semibold text-[1.2rem]">
+                <h1 className="text-[#d434f8] font-semibold text-[1rem] md:text-[1.2rem]">
                   Demo Day
                 </h1>
                 <p>
@@ -138,7 +139,7 @@ const Time = () => {
               variants={fadeIn("down", "tween", 2, 1.5)}
               className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[10%] h-[12%] top-[-2rem] md:top-[-5rem] lg:top-[-4rem] bg-[#d434f8]"
             ></motion.div>
-            <div className="z-20 pt-[11rem] md:pt-[5.2rem] lg:pt-[2.8rem] ">
+            <div className="z-20 pt-[14rem] sm:pt-[11rem] md:pt-[5.2rem] lg:pt-[2.8rem] ">
               {" "}
               <div className="rounded-full bg-[#d434f8] text-white text-center font-semibold w-[2rem] h-[2rem]">
                 {" "}
@@ -147,9 +148,9 @@ const Time = () => {
             </div>
             <motion.div
               variants={fadeIn("down", "tween", 2, 1.5)}
-              className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[10.5%] lg:h-[7%] h-[9%] top-[14.5rem] md:top-[7.8rem] lg:top-[5.5rem] bg-[#d434f8]"
+              className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[10.5%] lg:h-[7%] h-[7%] sm:h-[9%] top-[18rem] sm:top-[14.5rem] md:top-[7.8rem] lg:top-[5.5rem] bg-[#d434f8]"
             ></motion.div>
-            <div className="z-20 pt-[10.4rem] md:pt-[9rem] lg:pt-[4rem]">
+            <div className="z-20 pt-[15rem] sm:pt-[10.4rem] md:pt-[9rem] lg:pt-[4rem]">
               {" "}
               <div className="rounded-full bg-[#d434f8] text-white text-center font-semibold w-[2rem] h-[2rem]">
                 {" "}
@@ -158,9 +159,9 @@ const Time = () => {
             </div>
             <motion.div
               variants={fadeIn("down", "tween", 2, 1.5)}
-              className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[7%] lg:h-[6%] h-[8%] top-[27.5rem] md:top-[21rem] lg:top-[13rem] bg-[#d434f8]"
+              className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[7%] lg:h-[6%] h-[6%] sm:h-[8%] top-[35rem] sm:top-[27.5rem] md:top-[21rem] lg:top-[13rem] bg-[#d434f8]"
             ></motion.div>
-            <div className="z-20 pt-[7.8rem] md:pt-[7rem] lg:pt-[3rem]">
+            <div className="z-20 pt-[10rem] sm:pt-[7.8rem] md:pt-[7rem] lg:pt-[3rem]">
               {" "}
               <div className="rounded-full bg-[#d434f8] text-white text-center font-semibold w-[2rem] h-[2rem]">
                 {" "}
@@ -169,9 +170,9 @@ const Time = () => {
             </div>
             <motion.div
               variants={fadeIn("down", "tween", 2, 1.5)}
-              className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[7%] lg:h-[6%] h-[10%] top-[39.5rem] md:top-[31.5rem] lg:top-[19.5rem] bg-[#d434f8]"
+              className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[7%] lg:h-[6%] h-[12%] sm:h-[10%] top-[49rem] sm:top-[39.5rem] md:top-[31.5rem] lg:top-[19.5rem] bg-[#d434f8]"
             ></motion.div>
-            <div className="z-20 pt-[12.2rem] md:pt-[7.6rem] lg:pt-[3rem]">
+            <div className="z-20 pt-[17.5rem] sm:pt-[12.2rem] md:pt-[7.6rem] lg:pt-[3rem]">
               {" "}
               <div className="rounded-full bg-[#d434f8] text-white text-center font-semibold w-[2rem] h-[2rem]">
                 {" "}
@@ -180,9 +181,9 @@ const Time = () => {
             </div>
             <motion.div
               variants={fadeIn("down", "tween", 2, 1.5)}
-              className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[10%] lg:h-[6%] h-[10%] top-[54.5rem] md:top-[43rem] lg:top-[26.3rem] bg-[#d434f8]"
+              className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[10%] lg:h-[6%] h-[11%] sm:h-[10%] top-[71rem] sm:top-[54.5rem] md:top-[43rem] lg:top-[26.3rem] bg-[#d434f8]"
             ></motion.div>
-            <div className="z-20 pt-[10rem] md:pt-[10.5rem] lg:pt-[4rem]">
+            <div className="z-20 pt-[15rem] sm:pt-[10rem] md:pt-[10.5rem] lg:pt-[4rem]">
               {" "}
               <div className="rounded-full bg-[#d434f8] text-white text-center font-semibold w-[2rem] h-[2rem]">
                 {" "}
@@ -191,9 +192,9 @@ const Time = () => {
             </div>
             <motion.div
               variants={fadeIn("down", "tween", 2, 1.5)}
-              className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[10%] lg:h-[7%] h-[10%] top-[69rem] md:top-[56rem] lg:top-[33.2rem] bg-[#d434f8]"
+              className="w-[2px] absolute md:w-[4px] left-[48%] z-10 rounded-[5px] md:h-[10%] lg:h-[7%] h-[10%] top-[89rem] sm:top-[69rem] md:top-[56rem] lg:top-[33.2rem] bg-[#d434f8]"
             ></motion.div>
-            <div className="z-20 pt-[12.4rem] md:pt-[9rem] lg:pt-[4.2rem]">
+            <div className="z-20 pt-[15rem] sm:pt-[12.4rem] md:pt-[9rem] lg:pt-[4.2rem]">
               {" "}
               <div className="rounded-full bg-[#d434f8] text-white text-center font-semibold w-[2rem] h-[2rem]">
                 {" "}

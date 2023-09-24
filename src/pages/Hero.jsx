@@ -19,12 +19,12 @@ const Hero = () => {
           alt=""
         />
         <img
-          className="stars absolute left-[23rem] md:left-[48rem] top-[10rem] md:top-[13rem]"
+          className="stars absolute left-[18rem] sm:left-[23rem] md:left-[48rem] top-[10rem] md:top-[13rem]"
           src="stargraysmall.png"
           alt=""
         />
         <img
-          className="stars absolute md:bottom-[11rem] bottom-[35rem] left-[23rem] md:left-[30rem]"
+          className="stars absolute md:bottom-[11rem] bottom-[28rem] sm:bottom-[35rem] left-[19rem] sm:left-[23rem] md:left-[30rem]"
           src="stargraysmall.png"
           alt=""
         />
@@ -39,7 +39,7 @@ const Hero = () => {
           </p>
           <motion.img
             variants={fadeIn("up", "tween", 0.2, 1.5)}
-            className="absolute w-[9rem] md:w-[15rem] bottom-[-18px]"
+            className="absolute w-[7rem] sm:w-[9rem] md:w-[15rem] bottom-[-18px]"
             src="Vector4.png"
             alt=""
           />
@@ -53,7 +53,7 @@ const Hero = () => {
                 src="Creative.png"
                 alt=""
               />
-              <h1 className="flex flex-col text-[2rem] md:text-[4rem] font-bold md:items-left leading-[3rem]  md:leading-[4.5rem]">
+              <h1 className="flex flex-col text-[1.8rem] sm:text-[2rem] md:text-[4rem] font-bold md:items-left leading-[3rem]  md:leading-[4.5rem]">
                 <span className="ml-[-2.5rem] md:ml-0">getlinked Tech</span>
                 <span className="flex flex-row gap-[.1rem]">
                   Hackathon <span className="text-[#d434f8]"> 1.0</span>{" "}
@@ -73,7 +73,7 @@ const Hero = () => {
               </h1>
             </div>
 
-            <p className="md:pr-[7rem]  pt-[1rem] font-[400] text-[15px] md:text-[20px]">
+            <p className="md:pr-[7rem]  pt-[1rem] font-[400] text-[12px] sm:text-[15px] md:text-[20px]">
               Participate in getlinked tech Hackathon 2023 stand a chance to win
               a Big prize
             </p>

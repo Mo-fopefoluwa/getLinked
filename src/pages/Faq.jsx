@@ -82,20 +82,21 @@ const Faq = () => {
         whileInView="show"
         variants={staggerChildren}
         viewport={{ once: false, amount: 0.25 }}
+        id="faqs"
         className="relative py-[4rem] border-t-[.5px] border-white border-opacity-75 flex flex-col md:flex-row justify-center items-center gap-[6rem] md:gap-10"
       >
         <img
-          className="stars absolute top-[3rem] left-[6rem] md:left-[8rem]"
+          className="stars absolute top-[3rem] left-[2rem] sm:left-[6rem] md:left-[8rem]"
           src="stardp.png"
           alt=""
         />
         <img
-          className="stars absolute bottom-[20rem] md:top-[4rem] right-[22rem] md:right-[26rem]"
+          className="stars absolute bottom-[17rem] sm:bottom-[20rem] md:top-[4rem] right-[18rem] sm:right-[22rem] md:right-[26rem]"
           src="starlightpurp.png"
           alt=""
         />
         <img
-          className="stars absolute bottom-[15rem] md:top-[23rem] left-[4rem] md:right-[40rem]"
+          className="stars absolute bottom-[13rem] sm:bottom-[15rem] md:top-[23rem] left-[4rem] md:right-[40rem]"
           src="stargraysmall.png"
           alt=""
         />
@@ -110,17 +111,17 @@ const Faq = () => {
           alt=""
         />
         <img
-          className="absolute bottom-[23rem] md:top-[3.4rem] right-[12rem] md:right-[21rem] w-[5%] md:w-[3%]"
+          className="absolute bottom-[23rem] md:top-[3.4rem] right-[10rem] sm:right-[12rem] md:right-[21rem] w-[5%] md:w-[3%]"
           src="_.png"
           alt=""
         />
         <img
-          className="absolute w-[8%] md:w-[4%] bottom-[25rem] md:top-[1rem] right-[17rem] md:right-[29rem]"
+          className="absolute w-[8%] md:w-[4%] bottom-[24rem] sm:bottom-[25rem] md:top-[1rem] right-[14rem] sm:right-[17rem] md:right-[29rem]"
           src="_.png"
           alt=""
         />
         <img
-          className="absolute bottom-[23rem] md:top-[3.4rem] right-[22rem] md:right-[38rem] w-[5%] md:w-[3%]"
+          className="absolute bottom-[23rem] md:top-[3.4rem] right-[18rem] sm:right-[22rem] md:right-[38rem] w-[5%] md:w-[3%]"
           src="_.png"
           alt=""
         />

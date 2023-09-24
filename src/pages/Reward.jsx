@@ -53,7 +53,7 @@ const Reward = () => {
           alt=""
         />
 
-        <div className="pb-20 md:ml-[40rem] text-center md:text-left">
+        <div className="pb-20 sm:ml-[20rem] md:ml-[40rem] text-center md:text-left">
           <motion.h4
             variants={fadeIn("up", "tween", 0.2, 1.5)}
             className="text-white text-[1.5rem] md:text-[2rem] font-bold "
