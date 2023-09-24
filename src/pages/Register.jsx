@@ -60,14 +60,13 @@ const Register = ({ result = [] }) => {
         body: JSON.stringify(regObj),
       })
         .then((res) => {
-          // window.alert("successful");
-          console.log(regObj);
+          // console.log(regObj);
           document.getElementById("default-modal").style.display = "block";
           document.body.classList.add("modal-active");
         })
 
         .catch((err) => {
-          window.alert("Failed :" + err.message);
+          window.alert("Error, please try again");
         });
     }
   };
