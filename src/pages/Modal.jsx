@@ -5,7 +5,7 @@ const Modal = () => {
   return (
     <div>
       <div
-        id="defaul-modal"
+        id="default-modal"
         className="hidden absolute top-0 md:w-[100vw] h-[100vh] z-50  bg-[#150e28] bg-opacity-75"
       >
         <div className="flex justify-center items-center px-8 py-[5rem]">

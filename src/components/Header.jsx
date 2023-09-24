@@ -6,8 +6,8 @@ const Header = () => {
 
   const Nav = () => {
     return (
-      <div>
-        <ul className="absolute z-70 bg-[#150e28] left-0 top-[8rem] text-left w-[100%] px-[4rem] justify-center flex flex-col gap-14  text-white pb-[6rem]">
+      <div className="bg-[#150e28]">
+        <ul className="absolute z-[70] bg-[#150e28] left-0 top-[8rem] text-left w-[100%] px-[4rem] justify-center flex flex-col gap-14  text-white pb-[6rem]">
           <a href="#timeline">
             <li>Timeline</li>
           </a>
@@ -24,7 +24,7 @@ const Header = () => {
             {" "}
             <Link
               to={"register"}
-              className="ml-[-3.2rem] px-[2rem] py-[.8rem] md:py-[1rem] rounded bg-gradient-to-r from-[#d434fe] to-[#903aff]"
+              className="ml-[-3.2rem] px-[2rem] py-[.8rem] md:py-[1rem] rounded hover:border-[purple-800] active:bg-transparent active:border-purple-500 bg-gradient-to-r from-[#d434fe] to-[#903aff]"
             >
               Register
             </Link>{" "}
@@ -55,7 +55,7 @@ const Header = () => {
             {" "}
             <Link
               to={"register"}
-              className="px-[3rem] py-[.8rem] rounded bg-gradient-to-r from-[#fe34b9] to-[#903aff]"
+              className="px-[3rem] py-[.8rem] rounded hover:border-[purple-800] active:bg-transparent active:border-purple-500 bg-gradient-to-r from-[#fe34b9] to-[#903aff]"
             >
               Register
             </Link>{" "}

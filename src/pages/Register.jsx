@@ -60,7 +60,7 @@ const Register = ({ result = [] }) => {
         body: JSON.stringify(regObj),
       })
         .then((res) => {
-          // console.log(regObj);
+          console.log(res);
           document.getElementById("default-modal").style.display = "block";
           // document.getElementById("registers").classList.add("modal-active");
         })
@@ -257,7 +257,7 @@ const Register = ({ result = [] }) => {
             <p className="text-[#d434f8] text-left pl-[.5rem] text-[.8rem] md:text-[1rem]">
               Please review your registration details before submitting
             </p>
-            <div className="pl-[.5rem] flex flex-row gap-2 py-4 text-[.8rem] md:text-[1rem]">
+            <div className="pl-[.5rem] flex flex-row gap-2 py-4 text-[.7rem] sm:text-[.8rem] md:text-[1rem]">
               <input
                 type="checkbox"
                 value={checked}
