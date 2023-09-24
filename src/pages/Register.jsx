@@ -62,7 +62,7 @@ const Register = ({ result = [] }) => {
         .then((res) => {
           // console.log(regObj);
           document.getElementById("default-modal").style.display = "block";
-          document.getElementById("registers").classList.add("modal-active");
+          // document.getElementById("registers").classList.add("modal-active");
         })
 
         .catch((err) => {
